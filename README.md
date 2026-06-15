@@ -9,11 +9,11 @@ A **distributed, multi-device DDoS detection pipeline** built on Kafka, FastAPI,
 This is the **third and most advanced phase** of the LTS project series — a complete redesign from single-machine to distributed:
 
 ```
-lts-coursework-experiments         (early classifiers and Scapy experiments)
+PS1-coursework-experiments         (early classifiers and Scapy experiments)
         ↓
-lts-monolithic-ddos-detection      (single-machine sniffer + local inference)
+PS1-monolithic-ddos-detection      (single-machine sniffer + local inference)
         ↓
-lts-distributed-ddos-detection    ← you are here
+PS1-distributed-ddos-detection    ← you are here
 
 healthcare-prediction              (separate parallel project)
 ```
@@ -125,6 +125,6 @@ The `ml_server/serve.py` resolves the model path dynamically. Update the constan
 ---
 
 ## See Also
-- [`lts-coursework-experiments`](https://github.com/nikunj-gupta-1/lts-coursework-experiments) — precursor coursework and experiments
-- [`lts-monolithic-ddos-detection`](https://github.com/nikunj-gupta-1/lts-monolithic-ddos-detection) — the monolithic predecessor
+- [`PS1-coursework-experiments`](https://github.com/nikunj-gupta-1/PS1-coursework-experiments) — precursor coursework and experiments
+- [`PS1-monolithic-ddos-detection`](https://github.com/nikunj-gupta-1/PS1-monolithic-ddos-detection) — the monolithic predecessor
 - [`healthcare-prediction`](https://github.com/nikunj-gupta-1/healthcare-prediction) — separate Streamlit ML dashboard
