@@ -1,4 +1,4 @@
-# lts-distributed-ddos-detection
+# PS1-distributed-ddos-detection
 
 A **distributed, multi-device DDoS detection pipeline** built on Kafka, FastAPI, and gRPC. The architecture separates packet capture (lightweight edge agents) from feature extraction and ML inference (centralised servers), enabling network-wide monitoring at scale. Built during **Practice School I (PS-1)**.
 
